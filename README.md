@@ -8,7 +8,7 @@ The primary focus of our project is to create a retrieval-based system that iden
 real-time information about medications with similar uses and extracts and summarizes details
 about the side effects, providing users with a side-by-side comparison.
 
-Comparing the baseline
+Comparing the baseline:
 We want to compare Bio+ClinicalBERT-based results to the TF-IDF ones to benchmark
 the performance of Bio+ClinicalBERT. Also we want to conduct a detailed error analysis
 to identify cases where Bio+ClinicalBERT performs significantly better than TF-IDF.
