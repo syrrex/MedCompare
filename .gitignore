@@ -1,0 +1,4 @@
+# Ignore the virtual environment directory
+airvenv/
+api_key.txt
+hugging_face_key.txt
