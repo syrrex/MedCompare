@@ -15,3 +15,8 @@ to identify cases where Bio+ClinicalBERT performs significantly better than TF-I
 This will help clarify where the additional complexity of using a transformer model is most
 beneficial, such as cases involving complex symptom descriptions or nuanced ingredient
 interactions.
+
+To realise this task we had to choose a suitable Dataset. It should contain detailed information about various medicines,
+including their composition, uses and side effects. We decided to use "Medicine_Details" by MattBaster from HuggingFace
+because it suited our dependencies. For our work we focused on the collumns "Medicine Name", "Composition", "Uses", and "Side_effects".
+For further information about the dataset visit HuggingFace: https://huggingface.co/datasets/MattBastar/Medicine_Details
